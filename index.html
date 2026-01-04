@@ -3,89 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saptarshi Banerjee | Sovereign AI Architect</title>
+    <title>Saptarshi Banerjee | Sovereign AI & National Security Architect</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         .gradient-text { background: linear-gradient(to right, #60a5fa, #f97316, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .hero-bg { background: radial-gradient(circle at top right, #1e1b4b, #020617); }
         .card-glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .press-logo { filter: grayscale(1) brightness(1.5); transition: 0.3s; }
-        .press-logo:hover { filter: grayscale(0) brightness(1); }
+        .neon-border-blue:hover { border-color: #60a5fa; box-shadow: 0 0 15px rgba(96, 165, 250, 0.3); }
+        .neon-border-orange:hover { border-color: #f97316; box-shadow: 0 0 15px rgba(249, 115, 22, 0.3); }
+        .neon-border-pink:hover { border-color: #ec4899; box-shadow: 0 0 15px rgba(236, 72, 153, 0.3); }
     </style>
 </head>
-<body class="bg-slate-950 text-slate-100">
+<body class="bg-slate-950 text-slate-100 selection:bg-orange-500/30">
 
-    <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center card-glass">
-        <div class="text-xl font-bold gradient-text tracking-tighter">SAPTARSHI.AI</div>
-        <div class="flex gap-6 items-center">
-            <a href="#press" class="text-sm hover:text-blue-400 transition">Press</a>
-            <a href="#judging" class="text-sm hover:text-orange-400 transition">Judging</a>
-            <a href="https://www.linkedin.com/in/saptarshi-banerjee-83472679/" target="_blank" class="bg-blue-600 px-4 py-1.5 rounded-lg text-sm font-semibold hover:bg-blue-500 transition">LinkedIn</a>
+    <nav class="fixed w-full z-50 px-6 py-4 flex justify-between items-center card-glass border-b border-white/5">
+        <div class="text-xl font-black gradient-text tracking-tighter">SAPTARSHI.AI</div>
+        <div class="hidden md:flex gap-8 items-center">
+            <a href="#press" class="text-xs uppercase tracking-widest hover:text-blue-400 transition">Press</a>
+            <a href="#judging" class="text-xs uppercase tracking-widest hover:text-orange-400 transition">Judging</a>
+            <a href="https://github.com/saptob" target="_blank" class="text-xs uppercase tracking-widest hover:text-slate-400 transition">AWS GitHub</a>
+            <a href="https://www.linkedin.com/in/saptarshi-banerjee-83472679/" target="_blank" class="bg-blue-600 px-5 py-2 rounded-full text-xs font-bold hover:bg-blue-500 transition shadow-lg shadow-blue-900/20">LinkedIn</a>
         </div>
     </nav>
 
-    <header class="hero-bg pt-40 pb-20 px-6 text-center">
+    <header class="hero-bg pt-48 pb-32 px-6 text-center">
         <div data-aos="fade-up">
-            <h1 class="text-6xl md:text-8xl font-black mb-6 tracking-tight">SAPTARSHI <br><span class="gradient-text">BANERJEE</span></h1>
-            <p class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed">
-                Expert in <span class="text-blue-400 border-b border-blue-400/30">Sovereign AI</span> & National Security. 
-                Architecting secure, large-scale Generative AI for the world's most regulated environments.
+            <h1 class="text-6xl md:text-8xl font-black mb-6 tracking-tight leading-none">THE <span class="gradient-text">ARCHITECT</span> <br>OF SECURE AI</h1>
+            <p class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
+                Senior Solutions Architect @ AWS. Engineering the <span class="text-white font-semibold">Sovereign AI</span> infrastructure powering 
+                National Security and Fortune 500 Enterprise systems.
             </p>
-            <div class="mt-12 flex flex-wrap justify-center gap-4">
-                <span class="bg-slate-900/50 border border-blue-500/50 px-6 py-2 rounded-full text-blue-400 font-mono text-sm">Senior Solutions Architect @ AWS</span>
-                <span class="bg-slate-900/50 border border-orange-500/50 px-6 py-2 rounded-full text-orange-400 font-mono text-sm">U.S. Patent Holder</span>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://github.com/saptob" target="_blank" class="bg-slate-900 border border-slate-700 px-8 py-3 rounded-full hover:bg-slate-800 transition flex items-center gap-2">
+                    <span class="text-orange-500 font-bold">AWS</span> Open Source
+                </a>
+                <a href="https://www.linkedin.com/in/saptarshi-banerjee-83472679/" target="_blank" class="bg-white text-slate-950 px-8 py-3 rounded-full font-bold hover:bg-slate-200 transition">Connect on LinkedIn</a>
             </div>
         </div>
     </header>
 
-    <section id="press" class="py-24 px-6 bg-slate-900/30">
-        <div class="max-w-6xl mx-auto text-center">
-            <h2 class="text-sm uppercase tracking-widest text-slate-500 mb-12">Global Media Coverage</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center opacity-80">
-                <div class="space-y-4">
-                    <p class="text-2xl font-serif italic text-white">International Business Times</p>
-                    <a href="#" class="text-xs text-blue-400 hover:underline">Read Feature Article →</a>
+    <section id="press" class="py-32 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+                <div>
+                    <h2 class="text-sm uppercase tracking-[0.3em] text-blue-500 font-bold mb-2">Global Visibility</h2>
+                    <h3 class="text-4xl md:text-5xl font-black">MEDIA COVERAGE</h3>
                 </div>
-                <div class="space-y-4">
-                    <p class="text-2xl font-serif font-bold text-white tracking-tighter">ECONOMIC TIMES</p>
-                    <a href="#" class="text-xs text-orange-400 hover:underline">Read Expert Interview →</a>
-                </div>
-                <div class="space-y-4">
-                    <p class="text-2xl font-sans font-black text-white italic underline decoration-pink-500">TechTimes</p>
-                    <a href="#" class="text-xs text-pink-400 hover:underline">Read Technology Profile →</a>
-                </div>
+                <p class="text-slate-500 max-w-sm text-right">Featured insights on AI governance, enterprise scaling, and the future of cloud-native intelligence.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="https://www.ibtimes.co.uk/how-one-technologist-empowering-tomorrows-ai-leaders-one-platform-time-1742102" target="_blank" 
+                   class="p-10 card-glass rounded-[2rem] neon-border-blue transition group" data-aos="fade-up">
+                    <p class="text-blue-400 font-mono text-xs mb-6 uppercase tracking-widest">Featured Profile</p>
+                    <h4 class="text-2xl font-bold mb-4 leading-tight group-hover:text-blue-400 transition">International Business Times</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Empowering Tomorrow's AI Leaders, One Platform at a Time.</p>
+                    <span class="text-xs font-bold border-b border-blue-500 pb-1">READ FULL ARTICLE →</span>
+                </a>
+
+                <a href="https://government.economictimes.indiatimes.com/news/technology/maximizing-ai-value-key-insights-from-industry-expert-on-overcoming-enterprise-challenges/121668051" target="_blank" 
+                   class="p-10 card-glass rounded-[2rem] neon-border-orange transition group" data-aos="fade-up" data-aos-delay="100">
+                    <p class="text-orange-400 font-mono text-xs mb-6 uppercase tracking-widest">Industry Insights</p>
+                    <h4 class="text-2xl font-bold mb-4 leading-tight group-hover:text-orange-400 transition">The Economic Times</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Maximizing AI Value: Key Insights on Overcoming Enterprise Challenges.</p>
+                    <span class="text-xs font-bold border-b border-orange-500 pb-1">READ FULL ARTICLE →</span>
+                </a>
+
+                <a href="https://www.techtimes.com/articles/313171/20251204/how-saptarshi-banerjee-architecting-context-aware-artificial-intelligence-fortune-500s.htm" target="_blank" 
+                   class="p-10 card-glass rounded-[2rem] neon-border-pink transition group" data-aos="fade-up" data-aos-delay="200">
+                    <p class="text-pink-400 font-mono text-xs mb-6 uppercase tracking-widest">Tech Spotlight</p>
+                    <h4 class="text-2xl font-bold mb-4 leading-tight group-hover:text-pink-400 transition">Tech Times</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Architecting Context-Aware AI for Fortune 500 Enterprises.</p>
+                    <span class="text-xs font-bold border-b border-pink-500 pb-1">READ FULL ARTICLE →</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <section id="judging" class="py-24 px-6">
+    <section id="judging" class="py-32 px-6 bg-slate-900/30">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bold mb-4">Technical Judging</h2>
-            <p class="text-slate-400 mb-12">Evaluating the next generation of AI innovation at global scales.</p>
+            <h2 class="text-sm uppercase tracking-[0.3em] text-orange-500 font-bold mb-2">Subject Matter Expertise</h2>
+            <h3 class="text-4xl md:text-5xl font-black mb-16 text-white">JUDGING & PEER REVIEW</h3>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="p-8 card-glass rounded-3xl hover:border-blue-500/50 transition" data-aos="zoom-in">
-                    <div class="h-1 w-12 bg-blue-500 mb-6"></div>
-                    <h3 class="text-xl font-bold mb-2 text-white">AWS x MiniMax Hackathon</h3>
-                    <p class="text-sm text-slate-400">Invited Judge for $50K+ prize pool evaluating sophisticated AI agents.</p>
+                <div class="p-8 card-glass rounded-3xl border-l-4 border-blue-500" data-aos="fade-right">
+                    <h4 class="font-bold text-white mb-2">AWS x MiniMax Hackathon</h4>
+                    <p class="text-slate-400 text-sm">Evaluating complex Agentic AI systems with $50,000+ in global innovation prizes.</p>
                 </div>
-                <div class="p-8 card-glass rounded-3xl hover:border-green-500/50 transition" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="h-1 w-12 bg-green-500 mb-6"></div>
-                    <h3 class="text-xl font-bold mb-2 text-white">GTC AI Agents Summit</h3>
-                    <p class="text-sm text-slate-400">Reviewed cutting-edge productivity tools and UI/UX automation projects.</p>
+                <div class="p-8 card-glass rounded-3xl border-l-4 border-green-500" data-aos="fade-right" data-aos-delay="100">
+                    <h4 class="font-bold text-white mb-2">GTC AI Agents Summit</h4>
+                    <p class="text-slate-400 text-sm">Reviewing next-gen productivity and UI automation for the world's leading AI developers.</p>
                 </div>
-                <div class="p-8 card-glass rounded-3xl hover:border-purple-500/50 transition" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="h-1 w-12 bg-purple-500 mb-6"></div>
-                    <h3 class="text-xl font-bold mb-2 text-white">QS Reimagine Education</h3>
-                    <p class="text-sm text-slate-400">Official Judge for the "Oscars of Education Innovation" - 1,500+ global entries.</p>
+                <div class="p-8 card-glass rounded-3xl border-l-4 border-purple-500" data-aos="fade-right" data-aos-delay="200">
+                    <h4 class="font-bold text-white mb-2">QS Reimagine Education</h4>
+                    <p class="text-slate-400 text-sm">Evaluating 1,500+ global entries in the world's most prestigious education innovation awards.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-12 border-t border-slate-900 text-center">
-        <p class="text-slate-600 text-xs">© 2026 SAPTARSHI BANERJEE. ALL RIGHTS RESERVED. ARCHITECTED FOR EB-1A EXCELLENCE.</p>
+    <footer class="py-20 px-6 border-t border-white/5 text-center">
+        <div class="mb-8 flex justify-center gap-6">
+            <a href="https://www.linkedin.com/in/saptarshi-banerjee-83472679/" class="text-slate-500 hover:text-white transition">LinkedIn</a>
+            <a href="https://github.com/saptob" class="text-slate-500 hover:text-white transition">GitHub</a>
+        </div>
+        <p class="text-slate-600 text-[10px] uppercase tracking-widest font-mono">
+            © 2026 SAPTARSHI BANERJEE. ENGINEERED FOR EXTRAORDINARY ABILITY.
+        </p>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
